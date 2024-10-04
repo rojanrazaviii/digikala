@@ -1,0 +1,140 @@
+.submenu {
+    width: 100%;
+    height: 60vh;
+    
+    position: absolute;
+
+    top: 100%;
+    display: none;
+    transition: 300ms;
+    right: 0;
+}
+
+.categories:hover .submenu {
+    display: block;
+
+}
+
+.right-submenu {
+    width: 20%;
+    height: 60vh;
+    background-color: rgb(245, 245, 245);
+    overflow: auto;
+    direction: ltr;
+    display: inline-block;
+
+
+
+
+}
+
+.childs-right-submenu {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-flow: row-reverse;
+    gap: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: Yekanregular;
+    font-weight: 700;
+
+
+}
+
+.childs-right-submenu img {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+    display: block;
+    display: flex;
+    flex-flow: row-reverse;
+    padding-right: 5px;
+
+}
+
+.childs-right-submenu:hover {
+    background-color: white;
+}
+
+.left-submenu {
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    gap: 5px;
+    overflow: auto;
+    direction: ltr;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: right;
+    background-color: white;
+    overflow-x: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+
+}
+.childs-left-submenu{
+    width: 23%;
+    height: 60vh !important;
+    transition: 300ms;
+    direction: rtl;
+   
+    
+    
+}
+.top-childs-left-submenu{
+    width: 723px;
+    height:28px ;
+    
+}
+
+.childs-left-submenu span{
+    color: rgb(0, 142, 178);
+    font-family: Yekanregular;
+    font-size: 12px;
+    font-weight:700 ;
+    padding: 10px;
+    display: block;
+   
+   
+    
+}
+.redline-category{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;  
+}
+.redline-category h2, .childs-left-submenu h3{
+    width:fit-content ;
+    height: 30px;
+    font-family: yekanregular;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.redline{
+    width: 1px;
+    height: 1px;
+    background-color: red;
+}
+.redline-2{
+    display: flex;
+}
+.childs-left-submenu h5{
+    width: fit-content;
+    height: 26px;
+    font-family: Yekanregular;
+    font-size:12px ;
+    font-weight: 400;
+    color: rgb(129, 133, 139);
+    padding: 4px 0;
+    line-height: 26px;
+    
+    
+}
+
+

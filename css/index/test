@@ -1,0 +1,23 @@
+<div class="swiper-slide child2-slider-2">
+      <img src="./public/images/slider-2/2.webp" alt="">
+      <div class="lowerr-slider-2">
+      <p>لپ تاپ 15.6 اینچی ایسوس مدل Vivobook E1504GA-BQ509-i3 N305</p>
+      <div class="discountt">
+        <div class="discountt-top">
+          <div class="discountt-top-right">
+            <h6>۹٪</h6>
+
+          </div><!--discountt-top-right-->
+          <div class="discountt-top-left">
+            <h6>۲۰,۴۹۹,۰۰۰</h6>
+            <img src="./public/images/slider-2/3.svg" alt="">
+
+          </div><!--discountt-top-left-->
+
+        </div><!--discountt-top-->
+        <del>۲۲,۴۸۹,۰۰۰</del>
+        
+
+    
+      </div><!--discount-->
+    </div><!--lower-slider-2-->

@@ -1,0 +1,17 @@
+.slider-4{
+    width: 70%;
+    height:264px ;
+ margin: 0 auto;
+ display: flex;
+gap: 15px;
+  
+  
+    
+}
+.slider-4 img {
+    width: 50%;
+    height:inherit ;
+   object-fit: cover;
+ border-radius: 16px;
+}
+

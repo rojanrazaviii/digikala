@@ -1,0 +1,128 @@
+.products-table{
+    width: 1350px;
+    height:821px ;
+    padding: 12px 0;
+    border: 1px solid rgb(224, 224, 226);
+    
+    margin: 20px auto;
+    border-radius: 16px;
+}
+.products-table h1{
+    width:322px ;
+    height: 44px;
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+   font-size:21px ;
+   font-family: Yekanregular;
+   font-weight: 500;
+   padding:16px 0;
+   margin-bottom: 20px;
+ 
+}
+.products-column-1, .products-column-2, .products-column-3, .products-column-4, .products-column-5, .products-column-6{ 
+    width:218px;
+    height:810px ;
+    display: inline-block;
+}
+.childs-products-column-1, .childs-products-column-2{
+    width: 218px;
+    height: 242px;
+    
+    
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(224, 224, 226) ;
+    border-left: 1px solid rgb(224, 224, 226) ;
+   
+ 
+  
+
+}
+.childs-products-column-1 img, .childs-products-column-2 img, .last-child-products-column-1 img, .childs-products-column-last img, 
+.last-child-products-column-last img{
+    width: 150px;
+    height:150px ;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    object-fit: cover;
+    
+   
+}
+.sale{
+    width: 201px;
+    height: 64px;
+    margin-top: 10px;
+    margin: 0 auto;
+    
+}
+.sale-left{
+  
+    font-family: Yekanbold;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+  
+    
+}
+.sale-right{
+    background-color: rgb(211, 47, 47);
+    width:34px ;
+    height:20px ;
+    padding: 4px 0;
+    border-radius: 16px !important;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 10px;
+    font-family: Yekanregular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 12px;
+   
+       
+}
+del{
+   
+    width:201px ;
+    height:26px ;
+    padding-left:20px ;
+    color: rgb(192, 194, 197);
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Yekanregular;
+  line-height: 21px;
+   
+}
+.childtop-sale{
+    width: 201px;
+    height:33px ;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+.last-child-products-column-1{
+    width: 218px;
+    height: 242px;
+    
+    border-left: 1px solid rgb(224, 224, 226) ;
+   
+}
+.childs-products-column-last{
+    width: 218px;
+    height: 242px;
+    margin-bottom: 10px; 
+    border-bottom: 1px solid rgb(224, 224, 226) !important ;
+   
+    
+   
+}
+.last-child-products-column-last{
+    width: 218px;
+    height: 242px;  
+    margin-bottom: 10px; 
+}

@@ -1,0 +1,438 @@
+.footer-section{
+   width: 100%;
+    height: 1157px;
+    border-top: 1px solid rgb(240, 240, 241);
+    padding-top: 32px;
+    margin-top: 48px;
+}
+.footer-container{
+    width: 100%;
+    height:964px ;
+    padding: 0 20px;
+}
+.footer-top{
+    width: 84%;
+    height:40px ;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top h2{
+    width: 195px;
+    height:30px ;
+}
+button{
+    width: 138px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size:12px ;
+    font-family: Yekanregular;
+    font-weight: 700;
+    color: rgb(161, 163, 168);
+    padding: 8px 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: var(--border1);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.support{
+    width:84% ;
+    height:26px ;
+    margin: 0 auto;
+    margin-top: 12px;
+    display: flex;
+   align-items: center;
+    
+   
+}
+.phone-number, .phone-number-2{
+    width:152px ;
+    height:26px ;
+    font-size: 12px;
+    font-family: Yekanregular;
+    font-weight: 400;
+    display: inline-block;
+  
+}
+.footer-vertical{
+    width: 1px;
+    height:26px ;
+  color: rgb(161, 163, 168);
+   padding: 0 20px;
+  
+   display: inline-block;
+   
+  
+}
+.phone-number-2{
+    width: 61px;
+    height: 26px;
+}
+.phone-number-2 + p{
+    width: 1337px;
+    height: 26px;
+}
+.services{
+    width:84% ;
+    height: 104px;
+    margin: 32px auto;
+    display: flex;
+}
+.child-services{
+    width: 321px;
+    height:104px ;
+   text-align: center;
+   padding: 12px 0;
+  
+}
+.child-services p{
+    
+    font-size:11px ;
+    font-family: Yekanregular;
+    font-weight: 400;
+}
+.extra-information{
+    width: 84%;
+    height: 270px;
+   
+    margin: 0 auto;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.childs-extra-information{
+    width:21% ;
+    height: 270px;
+   
+ 
+}
+ .childs-extra-information h2{
+    width: 425px;
+    height:33px ;
+    font-size: 16px;
+    font-family:Yekanregular ;
+    font-weight:700 ;
+    color:rgb(63, 64, 100) ;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.childs-extra-information h3{
+    width:425px ;
+    height:30px ;
+    font-size: 14px;
+    font-family:Yekanregular ;
+    font-weight:400 ;
+    color: rgb(129, 133, 139);
+    margin-bottom: 8px;
+    text-align: right;
+    cursor: pointer;
+}
+.svg-section svg{
+    width: 40px !important;
+    height: 40px !important;
+    fill: rgb(161, 163, 168);
+    margin-left: 32px;
+    
+   
+    
+}
+.svg-section{
+    width:323px ;
+    height:40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-childs-extra-information{
+    width: 330px;
+    height:93px ;
+    margin-top: 32px;
+  
+}
+.bottom-childs-extra-information p{
+    width:330px ;
+    height:33px ;
+    
+    font-size:16px ;
+    font-family: yekanmedium;
+    font-weight: 700;
+    color: rgb(63, 64, 100);
+    margin-bottom: 12px;
+}
+.bottom-childs-extra-information .input-email{
+    width: 330px;
+    height:48px ;
+    display: flex;
+    gap: 5px;
+    
+}
+.input-email input{
+    width:260px ;
+    height:48px ;
+    border-radius: 8px;
+    padding: 0 8px;
+    background-color: rgb(240, 240, 241);
+    color: rgb(129, 133, 139);
+    font-size:15px;
+    font-family: Yekanregular;
+}
+.input-email button{
+    width:54px ;
+    height: 48px;
+    padding: 12px 16px;
+    background-color: rgb(224, 224, 226);
+    border: var(--border1);
+    border-radius: 8px;
+    color: white;
+    
+}
+.download-application{
+    width: 84%;
+    height:76px ;
+    background-color: rgb(60, 75, 109);
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    
+   
+    align-items: center;
+}
+.right-download-application{
+    width: 288px;
+    height:44px ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.right-download-application img{
+    width: 44px;
+    height: 44px;
+   
+}
+.right-download-application p{
+    width: 228px;
+    height:44px ;
+    font-size: 21px;
+    font-family: Yekanregular;
+    margin-right: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+   
+}
+.left-download-application{
+    width: 1308px;
+    height:60px ;
+    
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items:center;
+    
+}
+.left-download-application img{
+    object-fit: cover;
+    width:142px ;
+    height:44px ;
+    border-radius: 4px;
+}
+.last-left-download-application{
+    width:44px !important;
+    height:44px !important;
+    border: var(--border1);
+    border-radius: 4px;
+    background-color: white;
+
+}
+.online-shop{
+    width: 84%;
+    height: 224px;
+    padding: 32px 0;
+    
+    margin: 0 auto;
+   border-top: var(--border1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.right-online-shop{
+    width:72% ;
+    height: 160px;
+    
+    margin-left: 40px;
+}
+.right-online-shop h2{
+    font-size: 21px;
+    font-weight: 700;
+    font-family: Yekanmedium;
+    color: rgb(98, 102, 109);
+    margin-bottom: 10px;
+   
+}
+.right-online-shop h3{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Yekanmedium;
+    color: rgb(129, 133, 139);
+}
+.right-online-shop h4{
+    color: rgb(226,226,227);
+}
+.right-online-shop a{
+    color: rgb(25, 191, 211);
+    font-size:12px ;
+    font-weight:700 ;
+    font-family: Yekanregular;
+    margin-top: 10px;
+    display: flex;
+
+    align-items: center;
+}
+.left-online-shop{
+    width:441px ;
+    height: 109px;
+    
+    display: flex;
+}
+.childs-left-online-shop{
+    width: 109px;
+    height: 109px;
+    margin-right: 8px;
+    padding: 16px;
+    border: var(--border1);
+}
+.childs-left-online-shop img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+.condition{
+    width:84% ;
+    height:88px ;
+    padding: 32px 0;
+    border-top: var(--border1);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.condition p{
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(129, 133, 139);
+    font-family: Yekanregular;
+}
+.digikala-sections{
+    width:100% ;
+    height:200px ;
+    background-color: rgb(240, 240, 241);
+    
+   
+   
+    
+}
+.child1-digikala-section{
+    width: 12%;
+    height:80px ;
+    border-bottom: var(--border1);
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child1-digikala-section img, .child2-digikala-section img{
+    width:75px ;
+    height:20px ;
+    object-fit: cover;
+}
+.child2-digikala-section, .child3-digikala-section, .child4-digikala-section{
+    border-right: var(--border1);
+    width: 12%;
+    height:80px ;
+    border-bottom: var(--border1);
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child3-digikala-section img{
+    width:132px ;
+    height:20px ;
+    object-fit: cover;
+}
+.child4-digikala-section img, .child5-digikala-section img, .child7-digikala-section img{
+    width:82px ;
+    height: 20px;
+    object-fit: cover;
+}
+
+
+.child5-digikala-section{
+    width: 12%;
+    height: 80px;
+    border-bottom: var(--border1);
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.child6-digikala-section, .child7-digikala-section, .child8-digikala-section, .child9-digikala-section, .child10-digikala-section, .child11-digikala-section{
+    width: 12%;
+    height: 80px;
+    border-bottom: var(--border1);
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-right: var(--border1);
+
+}
+
+.child6-digikala-section img{
+    width: 121px;
+    height: 20px;
+    object-fit: cover;
+
+}
+.child8-digikala-section img{
+    width:57px ;
+    height: 20px;
+    object-fit: cover;
+}
+.child9-digikala-section img{
+    width:160px ;
+    height: 20px;
+    object-fit: cover;
+}
+.child10-digikala-section img{
+    width:153px ;
+    height: 20px;
+    object-fit: cover;
+}
+.child11-digikala-section img{
+    width:138px ;
+    height:20px ;
+    object-fit: cover;
+}
+
+.row1-digikala-section, .row2-digikala-section {
+    display: flex;
+    width:100% ;
+    height:80px ;
+    
+}

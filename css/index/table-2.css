@@ -1,0 +1,76 @@
+
+
+.table-2{
+    width:73% ;
+    height:405px ;
+    border-radius:16px ;
+    border: 1px solid rgb(224, 224, 226);
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0 16px;
+    overflow: hidden;
+
+
+
+}
+.table-2 h1{
+    width: 200px;
+    height: 44px;
+    font-size: 21px;
+    font-family: Yekanregular;
+    font-weight:500 ;
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+   
+}
+.childs-column-1, .childs-column-2, .childs-column-3, .childs-column-4{
+    width: 314px;
+    height:86px ;
+   
+    display:flex;
+  justify-content: center;
+  align-items: center;
+    margin-top: 10px;
+  
+}
+.childs-column-1 img, .childs-column-2 img, .childs-column-3 img, .childs-column-4 img {
+    width:86px ;
+    height:86px ;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.numbers{
+    width:7px ;
+    height:86px ;
+    color:rgb(25, 191, 211) ;
+    font-size:26px ;
+    font-weight: 800;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+ 
+}
+.numbers + h2{
+    color: rgb(63, 64, 100);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Yekanregular;
+}
+hr{
+    width: 198px;
+    height: 1px;
+    background-color: rgb(240, 240, 241);
+    margin-right: 93px;
+}
+.column-1,.column-2,.column-3,.column-4{
+ 
+    width:314px ;
+    height: 298px;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+

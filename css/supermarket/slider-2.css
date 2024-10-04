@@ -1,0 +1,254 @@
+
+.slider-2{
+    width:70% ;
+    height:440px !important;
+    background-color: rgb(2,181,85);
+    padding: 28px 0;
+  
+    border-radius: 16px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    
+}
+.slider-2-swiper{
+    width: 100%;
+    height: 385px;
+    border-radius: 16px !important;
+   padding: 28px 0;
+   
+    
+}
+.slider2-slide-1{
+    width: 145px;
+    height: 385px;
+    background-color:rgb(2,181,85) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+   
+   
+   
+}
+.images-slider2-slide-1{
+    display: flex;
+    justify-content:center;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 12px 0;
+}
+.images-slider2-slide-1 img{
+    width:120px  ;
+    height: 120px ;
+
+}
+.viewall{
+    width:120px ;
+    height: 40px;
+    padding: 8px 16px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: var(--borderradius1);
+    background-color: rgb(2,181,85);
+    color: white;
+    font-family: Yekanregular;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.viewall img{
+    width: 18px;
+    height: 18px;
+}
+.slider2-slide-2{
+    width: 192px !important;
+    height: 385px !important;
+    border-radius: 8px;
+   padding: 5px;
+   
+}
+img.amazingsuggestion-svg{
+    width:116px ;
+    height: 14px;
+    
+}
+.amazingsuggestion-svg + img{
+    width:150px ;
+    height: 150px;
+}
+.circle{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid rgb(2, 154, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{
+    width: 24px;
+    height: 24px;
+}
+.lower-slider-2{
+    width: 176px;
+    height: 177px;
+   
+    
+    
+}
+.lower-slider-2 p {
+    width:176px ;
+    height: 52px;
+    font-family: Yekanregular;
+    font-size:10px ;
+    font-weight:500 ;
+    color: rgb(98, 102, 109);
+   
+    
+}
+.storage{
+    width:176px ;
+    height:23px ;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+.storage img{
+    width:18px ;
+    height:18px ;
+}
+.storage h5{
+    width: 115px;
+    height: 23px;
+    font-family: Yekanregular;
+    font-size:11px ;
+    font-weight: 400;
+    color: rgb(98, 102, 109);
+    
+}
+.discount-top{
+    width: 176px;
+    height: 34px;
+   
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.discount-top-left{
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.discount-top-left h6, .discount-top-right{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Yekanregular;
+}
+.discount-top-right{
+    width:34px ;
+    height: 20px;
+    padding: 0 4px;
+    border-radius: 16px;
+    background-color: rgb(211, 47, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount-top-right h6{
+    color: white;
+
+}
+.discount-top-left img{
+    width: 16px !important;
+    height: 16px !important;
+}
+div.child2-bottom-slider2-slide-2{
+    width: 176px;
+    height: 23px;
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.viewall-slider-2{
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgb(15, 171, 198);
+    border-radius: 50%;
+}
+.child2-bottom-slider2-slide-2 svg{
+   margin: 5px;
+   
+}
+.available{
+    width:105px ;
+    height:23px ;
+    font-family: Yekanregular;
+    font-size:11px ;
+    font-weight: 400;
+    color:rgb(98, 102, 109) ;
+}
+.discount{
+    width: 176px;
+    height: 63px;
+    padding-top: 4px;
+    margin: 10px 0;
+  
+    
+  }
+  .left{
+      font-family: Yekanbold;
+      font-size: 14px;
+      font-weight: 700;
+      display: inline-block;
+      margin-left: 10px;
+      
+  }
+  .lastchild-slider-2{
+    border-radius: 8px 0 0 8px;
+}
+.swiper-slide{
+    width:162px ;
+    height:254px ;
+}
+.amazing{
+   margin: 8px;
+    width: 88px !important;
+    height: 88px !important;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+a .arrow{
+    display: block;
+    width: 18px !important;
+    height: 18px !important;
+   
+}
+
+del{
+    display: inline-block;
+    width:124px ;
+    height:21px ;
+    padding-left:20px ;
+    color: rgb(192, 194, 197);
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Yekanregular;
+  line-height: 21px;
+   
+}
+
+
+
+

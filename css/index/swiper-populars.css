@@ -1,0 +1,44 @@
+.parent-populars h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 21px;
+    font-family:Yekanbold ;
+    font-weight: 500;
+}
+
+
+.parent-populars{
+    width:70% ;
+    height: 224px;
+   margin-top: 20px !important;
+   border: 1px solid rgb(224, 224, 226);
+   border-radius: 16px;
+   padding: 24px 0;
+  
+   margin: 0 auto;
+}
+
+
+.popular-1{
+    width: 142px;
+    height:118px ;
+    padding: 4px 16px;
+    display: flex;
+   
+   
+
+  
+
+    
+}
+
+
+.popular-1 img{
+    width:110px !important ;
+    height:110px !important ;
+    object-fit: cover;
+    border-left: 1px solid rgb(224, 224, 226);
+    display: inline-block;
+
+
+}

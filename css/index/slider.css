@@ -1,0 +1,17 @@
+.slider{
+    width:100% ;
+    height: 400px !important; 
+    background-color: bisque;
+    position: relative;
+    margin-top: 16px;
+}
+.swiper-slide{
+    width: 100%;
+    height: 400px;
+
+}
+img{
+    width: inherit;
+    height: 100%;
+    object-fit: cover;
+}

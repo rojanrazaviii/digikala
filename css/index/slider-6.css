@@ -1,0 +1,12 @@
+.slider-6{
+    width: 70%;
+    height: 167px;
+    background-color: bisque;
+    margin: 20px auto;
+}
+.slider-6 img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 16px;
+}

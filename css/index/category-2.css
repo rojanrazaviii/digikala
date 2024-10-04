@@ -1,0 +1,50 @@
+.category-2{
+    width: 70%;
+    height:456px ;
+    
+   
+    
+    margin: 20px auto;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+ h1{
+   
+    width: 222px;
+    height:44px ;
+    font-family: Yekanbold;
+    font-size:21px ;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  
+
+}
+.category-2-childs, .category-2-childs-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.category-2-childs div img, .category-2-childs-bottom div img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    
+}
+.category-2-childs div p, .category-2-childs-bottom div p {
+    display: block;
+    width: 107px;
+    height: 52px;
+    color: rgb(12, 12, 12);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Yekanbold ;
+    line-height: 26px;
+}
+.category-2-childs div, .category-2-childs-bottom div{
+    padding: 0 16px;
+} 
